@@ -12,9 +12,8 @@ i = input("Enter the name of input file: ")
 i_2 = input("Enter the name of output file: ")
 i_3 = input("Enter the semitones (semitones must be integer): ")
 
-input_file = f"Records/{str(i)}"
+input_file = f"{str(i)}"
 output_file = f"{str(i_2)}"
 semitones = int(i_3)
 
 ChangePitch(input_file,output_file,semitones)
-move(output_file,"Outputs")
